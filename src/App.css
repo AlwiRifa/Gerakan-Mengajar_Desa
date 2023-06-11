@@ -1,0 +1,17 @@
+/* styles.css */
+.icon {
+  transition: fill 0.3s ease; /* Efek transisi untuk perubahan warna fill */
+  fill: red; /* Warna ikon saat tidak dihover */
+  cursor: pointer; /* Tampilan kursor saat dihover */
+}
+
+.icon:hover {
+  fill: white; /* Warna ikon saat dihover */
+  stroke: white;
+}
+
+.svg-container:hover path {
+  stroke: white; /* Change the stroke color when hovered */
+  transition: ease-in-out;
+  transition-duration: 300;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  @apply font-display
+}
+
+.navbar {
+  background: linear-gradient(180deg, #030A15 0%, #0C1B33 100%);
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(180deg, #0C1B33 40.59%, #030913 100%);
+}
+
+.bg-dashboard {
+  background: linear-gradient(180deg, #000000 0%, #0C1B33 19.27%);
+}
